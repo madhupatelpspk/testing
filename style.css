@@ -1,0 +1,58 @@
+/* Projects Section */
+.projects-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-family: 'Arvo', serif;
+    margin-bottom: 20px;
+    color: #6e57e0;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    background-color: #fff;
+    border: 2px solid #6e57e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.project-link {
+    font-size: 1rem;
+    color: #6e57e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}￼Enter
